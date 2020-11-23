@@ -26,6 +26,24 @@ const Home = () => {
                 </div>
             </div>
         </div>
+
+        
+        <div className="container-fluid padding my-4">
+            <div className="row text-center padding col-12">
+                <div className="col-xs-12 col-sm-4 col-md-4 col-lg-4 col-xl-4">
+                    <h1>Mission 1</h1> 
+                    <p>ehgaihgiayegiaiegieifuiefu euhfiaefiafchdfh sefsefsef defgsf sefsefssf wdhwdh wguydguywgduwgrf uwhuefhuwh duwduywuhfd whuehfuhwsefnhuw sheufhwu hfhwuefhwg feyhfy fehf </p>
+                </div>
+                <div className="col-xs-12 col-sm-4 col-md-4 col-lg-4 col-xl-4">
+                    <h1> Mission 2</h1>
+                    <p>ebfuasegfuawuefwieyfiwhefheihfihesifhisef sdfsf sefsef sfsf sefsefwefes awhduqhw djqhwduqhwud juhsduahwdu ahhduahwdu jahwduahwdu ahwduah wd </p>
+                </div>
+                <div className="col-xs-12 col-sm-4 col-md-4 col-lg-4 col-xl-4">
+                    <h1> Mission 3</h1>
+                    <p>jwsdfuiw dhwuhduwqhdu wiudhiwuahwdiquhwjd whdiuhwdiqw dhwhdiuqhwd hduahwd hdsuiahd had ashd iahdiuhaudh w</p>
+                </div>
+            </div>
+        </div>
         </>
     )
 }
