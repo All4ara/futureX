@@ -14,13 +14,13 @@ const Navbar = () => {
                     <div className="collapse navbar-collapse" id="navbarResponsive">
                         <ul className="navbar-nav ml-auto text-right">
                             <li className="nav-item ">
-                                <button className="nav-link " href="#1">Discover Space</button>
+                                <button className="nav-link mx-1" href="#1">Discover Space</button>
                             </li>
                             <li className="nav-item">
-                                <button className="nav-link" href="google.com">About FutureX</button>
+                                <button className="nav-link mx-1" href="google.com">About FutureX</button>
                             </li>
                             <li className="nav-item">
-                                <button className="nav-link" href="google.com">LogIn</button>
+                                <button className="nav-link mx-1" href="google.com">LogIn</button>
                             </li>
                         </ul>
                     </div>
