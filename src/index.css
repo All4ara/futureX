@@ -32,21 +32,21 @@ code {
   background-repeat: no-repeat;
   background-size: cover;
 }
-.btn1 {
+.btn1 ,.Moon {
   background-image: url('https://cdn.mos.cms.futurecdn.net/6bt6XEoX7uxVz8YAeGCzN9-1200-80.jpg');
   background-position: 50% 100%;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-.btn2 {
+.btn2, .Io {
   background-image: url('https://cdn.mos.cms.futurecdn.net/LsVtrVbdvsxCAgwqhpc8ed-320-80.jpg');
   background-position: 50% 100%;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-.btn3 {
+.btn3 ,.Titan{
   background-image: url('https://images.theconversation.com/files/302643/original/file-20191120-467-1jdql0z.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=1200&h=1200.0&fit=crop');
   background-position: 50% 100%;
   background-repeat: no-repeat;
@@ -54,27 +54,27 @@ code {
   
 }
 
-.btn4 {
+.btn4 ,.Ariel{
   background-image: url('https://upload.wikimedia.org/wikipedia/commons/5/5e/Ariel_USGS.png');
   background-position: 50% 100%;
   background-repeat: no-repeat;
   background-size: cover;
 }
-.btn5 {
+.btn5 ,.Mars{
   background-image: url('https://s.w-x.co/in-mars_2_0.jpg?crop=16:9&width=480&format=pjpg&auto=webp&quality=60');
   background-position: 50% 100%;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-.btn6 {
+.btn6 ,.Venus{
   background-image: url('https://thumbs-prod.si-cdn.com/tiVkK2c7lfOLCRbFTAoFvx_7k-8=/fit-in/1600x0/https://public-media.si-cdn.com/filer/2013082609104008_23_2013_venus.jpg');
   background-position: 50% 100%;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-.btn7 {
+.btn7, .Europa{
   background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Europa-moon-with-margins.jpg/220px-Europa-moon-with-margins.jpg');
   background-position: 50% 100%;
   background-repeat: no-repeat;
@@ -82,7 +82,7 @@ code {
   
 }
 
-.btn8 {
+.btn8 ,.Pluto{
   background-image: url('https://i.dailymail.co.uk/1s/2019/08/26/09/17696660-0-image-a-1_1566808797980.jpg');
   background-position: 50% 100%;
   background-repeat: no-repeat;

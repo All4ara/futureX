@@ -1,7 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import Navbar from './Navbar.js'
-import MissionOne from './MissionOne.js'
+
 
 
 const Home = () => {
@@ -17,7 +16,7 @@ const Home = () => {
             
 
             <div className="container-fluid padding" style={{height:"40rem"}}>
-                <div className="row text-left padding col-12" style={{padding:"10rem 2rem"}}>
+                <div className="row text-left padding col-12" style={{padding:"10rem 6rem"}}>
                     <div className="col-xs-12 col-sm-6 col-md-6 col-lg-6 col-xl-6">
                         <img className="img-thumbnail" src="https://media.beam.usnews.com/d1/d8/8501ba714a21aed9a7327e02ade1/180515-10thingselonmusk-editorial.jpg" alt="the-Goat" style={{width:'100%'}}/>
                     </div>
@@ -107,7 +106,7 @@ const Home = () => {
                         </div>
                     </div>
                     <div className="back4 text-right col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-                    <h1 className="text-left">History of FutureX</h1>
+                    <h1 className="text-left">History of SpaceX</h1>
                         <p>
                             The first privately funded, liquid-fueled rocket to reach orbit (2008)<br></br>
                             The first private company to send a spacecraft to the International Space Station (2012)<br></br>

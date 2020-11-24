@@ -11,9 +11,7 @@ const ISS = () => {
                         <h1>ISS</h1>
                         <button className="btn0 font-weight-bold" style={{height: '600px',width: '800px',fontSize: '3rem',border:'none'}}></button>
                         <div className="overlay5">
-                            
-                                <h1>Current Location: 25.693° N, -46.976° E</h1>
-                                
+                            <h1>Current Location: 25.693° N, -46.976° E</h1>
                         </div>
                     </div>
                 </div>

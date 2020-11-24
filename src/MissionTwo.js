@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import Moons from './Moons.js'
 
-const MissionTwo = () => {
+const MissionTwo = (props) => {
     return (
         <>
         <div className="all">
@@ -13,7 +13,7 @@ const MissionTwo = () => {
                     <p>Blast of to a moon near you for scientific research. All areospace scientist, biologist, and material scientist welcomed. Moon mining will be an industry of the futrue. With so much to explore material science will be transformed. Icey Moons like Titan and Ariel have water and may even have life crawling around.</p>
                 </div>
 
-                <Moons/>
+                <Moons {...props}/>
 
                 <div className="containter-fluid padding text-white space">
                     <div class="row" style={{height: '8rem'}}>

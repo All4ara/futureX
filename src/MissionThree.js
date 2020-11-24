@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import Planets from './Planets.js'
 
-const MissionThree = () => {
+const MissionThree = (props) => {
     return (
         <>
         <div className="all">
@@ -13,7 +13,7 @@ const MissionThree = () => {
                     <p>WHY MARS?<br></br>At an average distance of 140 million miles, Mars is one of Earth's closest habitable neighbors. Mars is about half again as far from the Sun as Earth is, so it still has decent sunlight. It is a little cold, but we can warm it up. Its atmosphere is primarily CO2 with some nitrogen and argon and a few other trace elements, which means that we can grow plants on Mars just by compressing the atmosphere. Gravity on Mars is about 38% of that of Earth, so you would be able to lift heavy things and bound around. Furthermore, the day is remarkably close to that of Earth. Together the Starship spacecraft and Super Heavy rocket create a reusable transportation system capable of on orbit refueling and leveraging Mars’ natural H2O and CO2 resources to refuel on the surface of Mars.</p>
                 </div>
 
-                <Planets/>
+                <Planets {...props}/>
 
                 <div className="containter-fluid padding text-white space">
                     <div class="row" style={{height: '8rem'}}>

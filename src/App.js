@@ -1,20 +1,23 @@
-import logo from './logo.svg';
+
 import './App.css';
 import Home from './Home.js'
 import Missions from './Missions.js'
 import Moons from './Moons.js'
-import { Route, Switch, Link } from 'react-router-dom'
+import { Route, Switch} from 'react-router-dom'
 import React from 'react'
 import Navbar from "./Navbar.js"
 import MissionOne from './MissionOne.js'
 import MissionTwo from './MissionTwo.js'
 import MissionThree from './MissionThree.js'
 import Planets from './Planets.js'
+import Data from './Data.js'
 
 function App() {
   return (
     <>
       <Navbar/>
+
+      
 
       <Switch>
 
@@ -26,6 +29,8 @@ function App() {
         <Route exact path='/missions/m1' render={(props) => <MissionOne {...props}/>}/>
         <Route exact path='/missions/m2' render={(props) => <MissionTwo {...props}/>}/>
         <Route exact path='/missions/m3' render={(props) => <MissionThree {...props}/>}/>
+
+        
 
       </Switch>
 
