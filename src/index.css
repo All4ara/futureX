@@ -11,3 +11,99 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.navbar{
+  background-color: rgb(55, 55, 55) !important;
+}
+.all{
+  background-color: black;
+  color: white;
+}
+
+.btn1 {
+  background-image: url('https://cdn.mos.cms.futurecdn.net/6bt6XEoX7uxVz8YAeGCzN9-1200-80.jpg');
+  background-position: 50% 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.btn2 {
+  background-image: url('https://cdn.mos.cms.futurecdn.net/LsVtrVbdvsxCAgwqhpc8ed-320-80.jpg');
+  background-position: 50% 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.btn3 {
+  background-image: url('https://images.theconversation.com/files/302643/original/file-20191120-467-1jdql0z.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=1200&h=1200.0&fit=crop');
+  background-position: 50% 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+
+.btn4 {
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/5/5e/Ariel_USGS.png');
+  background-position: 50% 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+div.allback{
+  
+  padding: 0 100px;
+}
+.back1{
+  background-image: url('https://s3-alpha-sig.figma.com/img/c965/4a93/b76d91609df26eabd1e1167252464b4d?Expires=1607299200&Signature=BH~AtsXxfUvdHxR3FeAVaKHTNKTewngtfN3waOEfGG5bPGuakp0IuJgHmwwy00YcvYVqwIX2OPUptgzvbmRTcyFWyi7CYsN32ueLxnG67-oPRDTBB7Q8V9paUMYIAQpmwxY3j2fKUMfAX2dDIOeghQUbFl3LmlME8dpdipfjEQuGSF5DCBkdZCv1ctsDPqKceBjky1ZNLoxBaO4hM1B77Ht04LB67j5U72bJVm2DZzD9wfNYAMOlBDbpDrCFlIj483srioEek61KmUaTS7ukLBtmnjKyDaNTsToFdhVR9MhtFsqnB15FsDBD7iNyMVITP~SBIw-Bkde5hJhLBxQxFQ__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA');
+  background-position: 100% 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 30rem;
+  
+}
+.back1 h3,
+.back1 h1,
+.back1 p{
+  position: relative;
+  top: 120px;
+  left: 50px;
+  width: 50%;
+}
+
+.back2{
+  background-image: url('https://s3-alpha-sig.figma.com/img/114b/a346/0e610b620a5ed32a5c3b84a24415c1d0?Expires=1607299200&Signature=TxJH1a2KmS3sTTDqDW01qY8GlSc84C--kNF1e0skDjFa9WtvrrhXaA1sV3zV~~632VdlBiFCMnTfyDljTExsQ1Rf0tA3~ZRabFcikahWHWSGGcteLRHXDDllRHIJ78Ozcmx1dStlIiJeGX8cCCLXa~p3folRYXmyP70MWFpb4JtIPaP2fH6C85NjuvjKqSV~6oW1AGsggNvwHOQrCrzdM3Wvwt3Anv~-ikDIsjsddxk91KnRHx1Py~gJtBJNV6PjzuhWTyR9wUV6Bfr81HX1~6PrjLudTUVnOsi-fHwcUiX8Vx0KYOf0t2o6g2EIu65weyJpqi8ilEudhf2mnkx66g__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA');
+  background-position: 100% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 24rem;
+  
+}
+.back2 h3,
+.back2 h1,
+.back2 p{
+  position: relative;
+  bottom: 40px;
+  left: 400px;
+  width: 50%;
+}
+.back22 h3,
+.back22 h1,
+.back22 p{
+  position: relative;
+  left: 50px;
+  bottom: 100px;
+  
+}
+.back3{
+  background-image: url('https://s3-alpha-sig.figma.com/img/13e4/9261/f360d12c9f1e9c384e5cae723ead0db7?Expires=1607299200&Signature=Ku0cGVlyyuUZ-rL3TOqsDvW-snueyAWXY41GpSsaSa1chZQYzgnPDrhedRsUAluGHXoeDYvL3jiJf71Qx~Gc6dKvCro-drVUue50oc0P52CFjT4AviwpCO1DTIEZZch4Plb~R6n6cjuIkOL-yh-xIqhUhDJ72dJk~6NqA4a4dgusjZjpGy3aBuBcB3H8fRbo30OzXxRYITx2qm2~2Wplv4giVaxhituuPt1XqYjF6WTCS~n2eFDUN4bUokMXt5b7jzro2xqP8v0E1i~xs8ZytSn4ul5xRbJRULmiuZB5hhtKs-SZIy9w7AlvlkE14u57B9FPylbraMKdMjf5Kmb2GA__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA');
+  background-position: 100% 80%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 27rem;
+  color: black !important;
+  font-size: .8rem;
+  font-weight: bold;
+  
+}
+.benefits {
+  position: relative;
+  top: 30px;
+}
