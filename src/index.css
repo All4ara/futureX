@@ -93,7 +93,7 @@ div.allback{
   padding: 0 100px;
 }
 .back1{
-  background-image: url('https://s3-alpha-sig.figma.com/img/c965/4a93/b76d91609df26eabd1e1167252464b4d?Expires=1607299200&Signature=BH~AtsXxfUvdHxR3FeAVaKHTNKTewngtfN3waOEfGG5bPGuakp0IuJgHmwwy00YcvYVqwIX2OPUptgzvbmRTcyFWyi7CYsN32ueLxnG67-oPRDTBB7Q8V9paUMYIAQpmwxY3j2fKUMfAX2dDIOeghQUbFl3LmlME8dpdipfjEQuGSF5DCBkdZCv1ctsDPqKceBjky1ZNLoxBaO4hM1B77Ht04LB67j5U72bJVm2DZzD9wfNYAMOlBDbpDrCFlIj483srioEek61KmUaTS7ukLBtmnjKyDaNTsToFdhVR9MhtFsqnB15FsDBD7iNyMVITP~SBIw-Bkde5hJhLBxQxFQ__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA');
+  background-image: url('https://cdn.arstechnica.net/wp-content/uploads/2020/11/Crew-1-Nov-15-2020-6267-800x533.jpg');
   background-position: 100% 100%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -177,6 +177,30 @@ div.allback{
   font-size: 1.8rem;
   
 }
+.btn-outline:hover {
+  background-color: rgb(255, 255, 255);
+  border: 2px solid rgb(0, 0, 0);
+  color: rgb(0, 0, 0);
+  
+}
+.home-btn-outline{
+  width: 24rem;
+  height: 4rem;
+  background-color: black;
+  border: 2px solid white;
+  color: white;
+  font-size: 1.8rem;
+}
+
+.home-btn-outline:hover{
+  
+  background-color: rgb(255, 255, 255);
+  border: 2px solid rgb(0, 0, 0);
+  color: rgb(0, 0, 0);
+  
+}
+
+
 .space{
   background-image: url('https://s3-alpha-sig.figma.com/img/20b9/d20f/92c59d64fadab563488d5af2fe1432d9?Expires=1607299200&Signature=g6x5KcJhqKzZGe8-6xg~h7wCTOd94LBddCrIDce4OOzh85wSNRDoHE8ImT15L-t3BKryg31sTJoJTaYF0CZrWWKOpUqyzmMYQBUb0OVZ91A8hw6TecECft7QfKsVIgszyV0hjbeQZs9FoV~TLR8wGrsbBi8tLQAOVhrLDRWM8SMxzxv88OuyxIuyB9GSybYCLOrok9~NBlU5ycaKqq4n1P1XjFvfLK2v3QwA70KTpV4p3KPTWF5J9wLveVuU9AwFtn7ZwO5IJn9AoT0bTKjYbn-FoCabQ57PH9XsdBqLjmFLZMxukiupVP~Vi21co5QrjV4WRBq6yCA~8omZZkmOkA__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA');
   background-position: 100% 10%;

@@ -23,7 +23,7 @@ const Home = () => {
                     <div className="col-xs-12 col-sm-6 col-md-6 col-lg-6 col-xl-6">
                         <h1 className="mt-5">Invest in a spaceX Mission</h1>
                         <p>Join scientists, companies and governments in discovering the secrets of the solar system by investing in a spacex mission.</p>
-                        <Link to="/missions"><button className="px-5 py-3" style={{fontSize:"2rem",border:"2px solid white"}}>Discover Space</button></Link>
+                        <Link to="/missions"><button className="px-5 py-3 home-btn-outline" style={{fontSize:"2rem",border:"2px solid white"}}>Discover Space</button></Link>
                     </div>
                 </div>
             </div>
