@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import Navbar from './Navbar.js'
+import MissionOne from './MissionOne.js'
 
 const Missions = () => {
     
