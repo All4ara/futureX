@@ -16,7 +16,7 @@ const Moons = () => {
     
     return (
         <>
-            <Navbar/>
+            
 
             <div className="container-fluid padding " style={{height: '12rem'}}>
                 <div className="row text-center padding my-5 col-12" style={{padding: '15rem 0'}}>

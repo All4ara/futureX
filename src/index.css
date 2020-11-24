@@ -17,6 +17,14 @@ code {
 .all{
   background-color: black;
   color: white;
+  font-family: DIN Condensed;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+
 }
 
 .btn1 {
@@ -93,17 +101,51 @@ div.allback{
   
 }
 .back3{
-  background-image: url('https://s3-alpha-sig.figma.com/img/13e4/9261/f360d12c9f1e9c384e5cae723ead0db7?Expires=1607299200&Signature=Ku0cGVlyyuUZ-rL3TOqsDvW-snueyAWXY41GpSsaSa1chZQYzgnPDrhedRsUAluGHXoeDYvL3jiJf71Qx~Gc6dKvCro-drVUue50oc0P52CFjT4AviwpCO1DTIEZZch4Plb~R6n6cjuIkOL-yh-xIqhUhDJ72dJk~6NqA4a4dgusjZjpGy3aBuBcB3H8fRbo30OzXxRYITx2qm2~2Wplv4giVaxhituuPt1XqYjF6WTCS~n2eFDUN4bUokMXt5b7jzro2xqP8v0E1i~xs8ZytSn4ul5xRbJRULmiuZB5hhtKs-SZIy9w7AlvlkE14u57B9FPylbraMKdMjf5Kmb2GA__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA');
+  background-image: url('https://cdn.mos.cms.futurecdn.net/PsLL466xH9uVuWPKnKxmwb.jpg');
   background-position: 100% 80%;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 27rem;
-  color: black !important;
-  font-size: .8rem;
-  font-weight: bold;
-  
+  height: 36rem;
+  color: rgb(255, 255, 255) !important;
+}
+.back4 {
+  background-image: url('https://s3-alpha-sig.figma.com/img/c402/3e28/07d7dc3198524330ef6cefb36d306247?Expires=1607299200&Signature=KtuVCjim60XluKDHg2BMJtAwbCh38DxhxHtsoTwUEREnksjUWH33TMro4OrE4wOaBVZrev4SKYiDi17KLGKQ2b8VLPOHEY5nFdPXMODtqQsFhwXuHzYb2VEfpQ2GSgG-eKX4CLXiF96A3o-1wa99Q4e4ftzNCUMbwOHj1EWhHJPxIDy2ad47VnVggU8pbcx23Y0z9a-L5sN1ifokOPecyW1DT-pvpwsW2t8pJ4g3~-YsEVOOoKooIt9olqN1elq~qxCHS9aZtPPqBtL8HlR99fdfLa45Xtsz-CLIXAgxtVb4qncge08rm1oefbjY39iW-r2ZjsYqTw5wd8OfvG-yQA__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA');
+  background-position: 100% 5%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 26rem;
+
+}
+.back4 h1,
+.back4 p{
+  position: relative;
+  bottom: 40px;
 }
 .benefits {
   position: relative;
   top: 30px;
+}
+.allMission{
+  padding: 0 5rem;
+}
+.lvl{
+  position: absolute;
+  left: 50px;
+}
+.btn-outline {
+  width: 6rem;
+  height: 4rem;
+  background-color: black;
+  border: 2px solid white;
+  color: white;
+  font-size: 1.8rem;
+  
+}
+.space{
+  background-image: url('https://s3-alpha-sig.figma.com/img/20b9/d20f/92c59d64fadab563488d5af2fe1432d9?Expires=1607299200&Signature=g6x5KcJhqKzZGe8-6xg~h7wCTOd94LBddCrIDce4OOzh85wSNRDoHE8ImT15L-t3BKryg31sTJoJTaYF0CZrWWKOpUqyzmMYQBUb0OVZ91A8hw6TecECft7QfKsVIgszyV0hjbeQZs9FoV~TLR8wGrsbBi8tLQAOVhrLDRWM8SMxzxv88OuyxIuyB9GSybYCLOrok9~NBlU5ycaKqq4n1P1XjFvfLK2v3QwA70KTpV4p3KPTWF5J9wLveVuU9AwFtn7ZwO5IJn9AoT0bTKjYbn-FoCabQ57PH9XsdBqLjmFLZMxukiupVP~Vi21co5QrjV4WRBq6yCA~8omZZkmOkA__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA');
+  background-position: 100% 10%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 32rem;
+  
 }

@@ -10,7 +10,6 @@ const Missions = () => {
     
     return (
         <>
-        <Navbar/>
 
         <div className="container-fluid padding mt-4 border-bottom" style={{height: '18rem'}}>
             <div className="row text-center padding my-5 col-12">
@@ -45,7 +44,7 @@ const Missions = () => {
                 </div>
             </div>
         </div>
-        <div className="padding bg-dark text-center" style={{height: '10rem'}}>
+        <div className="padding bg-dark text-center" style={{height: '3rem'}}>
             <div className="pt-4">
                 <small className="text-white">Ana Parra | Ariel Elazarov | Darys Bada | Dayan Evora | Gabrielle Farag | Patrick Reilly</small>
             </div>

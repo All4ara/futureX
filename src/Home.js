@@ -106,14 +106,24 @@ const Home = () => {
                             </div>
                         </div>
                     </div>
+                    <div className="back4 text-right col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                    <h1 className="text-left">History of FutureX</h1>
+                        <p>
+                            The first privately funded, liquid-fueled rocket to reach orbit (2008)<br></br>
+                            The first private company to send a spacecraft to the International Space Station (2012)<br></br>
+                            The first private company to send a satellite into geosynchronous orbit (2013)<br></br>
+                            The first private company to send a probe beyond Earth orbit (2015)<br></br>
+                            The first landing of a first stage orbital capable rocket (2015)<br></br>
+                            The first water landing of a first stage orbital capable rocket (2016)<br></br>
+                            The first private company to send humans into orbit (2020)
+                        </p>
+                    </div>
                 </div>
             </div>
 
             
-            <div className="container-fluid padding bg-dark" style={{height: '20rem'}}>
+            <div className="container-fluid padding bg-dark" style={{height: '5rem'}}>
                 <div className="text-center padding col-12"><hr></hr>
-                    
-                    <h1 className="mt-5 text-white">History of FutureX</h1>
                    
                     <div className="pt-4">
                         <small className="text-white">Ana Parra | Ariel Elazarov | Darys Bada | Dayan Evora | Gabrielle Farag | Patrick Reilly</small>
