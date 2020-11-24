@@ -17,7 +17,7 @@ const Navbar = () => {
                                 <a className="nav-link mx-1" href="#1">Discover Space</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link mx-1" href="google.com">About FutureX</a>
+                                <Link to="/planets"><a className="nav-link mx-1" href="google.com">About FutureX</a></Link>
                             </li>
                             <li className="nav-item">
                                 <Link to="/moons"><a className="nav-link mx-1" href="google.com">LogIn</a></Link>

@@ -9,6 +9,7 @@ import Navbar from "./Navbar.js"
 import MissionOne from './MissionOne.js'
 import MissionTwo from './MissionTwo.js'
 import MissionThree from './MissionThree.js'
+import Planets from './Planets.js'
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <Route exact path='/missions' render={(props) => <Missions {...props}/>}/>
 
         <Route exact path='/moons' render={(props) => <Moons {...props}/>}/>
+        <Route exact path='/planets' render={(props) => <Planets {...props}/>}/>
         <Route exact path='/missions/m1' render={(props) => <MissionOne {...props}/>}/>
         <Route exact path='/missions/m2' render={(props) => <MissionTwo {...props}/>}/>
         <Route exact path='/missions/m3' render={(props) => <MissionThree {...props}/>}/>

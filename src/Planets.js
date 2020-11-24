@@ -1,8 +1,11 @@
 
+
 import React from 'react'
 
 
-const Moons = () => {  
+
+const Planets = () => {
+     
     return (
         <>
             
@@ -10,8 +13,8 @@ const Moons = () => {
             <div className="moons container-fluid padding ">
                 <div className="row text-center padding my-5 col-12">
                     <div className="col-xs-12 col-sm-3 col-md-3 col-lg-3 col-xl-3">
-                        <h1>Moon</h1>
-                        <button className="btn1 font-weight-bold" style={{height: '200px',width: '200px',borderRadius: '50%',fontSize: '3rem',border:'none'}}></button>
+                        <h1>MARS</h1>
+                        <button className="btn5 font-weight-bold" style={{height: '200px',width: '200px',borderRadius: '50%',fontSize: '3rem',border:'none'}}></button>
                         <div className="overlay1">
                             <div>
                             <h5>Density: 3.344 g/cm<small style={{fontSize:".8rem",position: "absolute"}}>3</small></h5>
@@ -26,8 +29,8 @@ const Moons = () => {
                         
                     </div>
                     <div className="col-xs-12 col-sm-3 col-md-3 col-lg-3 col-xl-3">
-                        <h1>IO</h1>
-                        <button className="btn2 font-weight-bold" style={{height: '200px',width: '200px',borderRadius: '50%',fontSize: '3rem',border:'none'}}></button>
+                        <h1>VENUS</h1>
+                        <button className="btn6 font-weight-bold" style={{height: '200px',width: '200px',borderRadius: '50%',fontSize: '3rem',border:'none'}}></button>
                         <div className="overlay2">
                             <div>
                             <h5>Density: 3.344 g/cm<small style={{fontSize:".8rem",position: "absolute"}}>3</small></h5>
@@ -41,8 +44,8 @@ const Moons = () => {
                         </div>
                     </div>
                     <div className="col-xs-12 col-sm-3 col-md-3 col-lg-3 col-xl-3">
-                        <h1>Titan</h1>
-                        <button className="btn3 font-weight-bold" style={{height: '200px',width: '200px',borderRadius: '50%',fontSize: '3rem',border:'none'}}></button>
+                        <h1>EUROPA</h1>
+                        <button className="btn7 font-weight-bold" style={{height: '200px',width: '200px',borderRadius: '50%',fontSize: '3rem',border:'none'}}></button>
                         <div className="overlay3">
                             <div>
                             <h5>Density: 3.344 g/cm<small style={{fontSize:".8rem",position: "absolute"}}>3</small></h5>
@@ -56,8 +59,8 @@ const Moons = () => {
                         </div>
                     </div>
                     <div className="col-xs-12 col-sm-3 col-md-3 col-lg-3 col-xl-3">
-                        <h1>Ariel</h1>
-                        <button className="btn4 font-weight-bold" style={{height: '200px',width: '200px',borderRadius: '50%',fontSize: '3rem',border:'none'}}></button>
+                        <h1>PLUTO</h1>
+                        <button className="btn8 font-weight-bold" style={{height: '200px',width: '200px',borderRadius: '50%',fontSize: '3rem',border:'none'}}></button>
                         <div className="overlay4">
                             <div>
                             <h5>Density: 3.344 g/cm<small style={{fontSize:".8rem",position: "absolute"}}>3</small></h5>
@@ -77,4 +80,4 @@ const Moons = () => {
     )
 }
 
-export default Moons;
+export default Planets;

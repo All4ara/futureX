@@ -26,7 +26,12 @@ code {
   text-align: left;
 
 }
-
+.btn0 {
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/8/8a/ISS_after_completion_%28as_of_June_2006%29.jpg');
+  background-position: 100% 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 .btn1 {
   background-image: url('https://cdn.mos.cms.futurecdn.net/6bt6XEoX7uxVz8YAeGCzN9-1200-80.jpg');
   background-position: 50% 100%;
@@ -51,6 +56,34 @@ code {
 
 .btn4 {
   background-image: url('https://upload.wikimedia.org/wikipedia/commons/5/5e/Ariel_USGS.png');
+  background-position: 50% 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.btn5 {
+  background-image: url('https://s.w-x.co/in-mars_2_0.jpg?crop=16:9&width=480&format=pjpg&auto=webp&quality=60');
+  background-position: 50% 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.btn6 {
+  background-image: url('https://thumbs-prod.si-cdn.com/tiVkK2c7lfOLCRbFTAoFvx_7k-8=/fit-in/1600x0/https://public-media.si-cdn.com/filer/2013082609104008_23_2013_venus.jpg');
+  background-position: 50% 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.btn7 {
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Europa-moon-with-margins.jpg/220px-Europa-moon-with-margins.jpg');
+  background-position: 50% 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+
+.btn8 {
+  background-image: url('https://i.dailymail.co.uk/1s/2019/08/26/09/17696660-0-image-a-1_1566808797980.jpg');
   background-position: 50% 100%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -128,6 +161,9 @@ div.allback{
 .allMission{
   padding: 0 5rem;
 }
+.miss p{
+  width: 60%;
+}
 .lvl{
   position: absolute;
   left: 50px;
@@ -148,4 +184,64 @@ div.allback{
   background-size: cover;
   height: 32rem;
   
+}
+.overlay1{
+  opacity: 0;
+}
+.overlay1:hover {
+
+  opacity: 1;
+  
+}
+.overlay2{
+  opacity: 0;
+}
+.overlay2:hover {
+
+  opacity: 1;
+  
+}
+.overlay3{
+  opacity: 0;
+}
+.overlay3:hover {
+
+  opacity: 1;
+  
+}
+.overlay4{
+  opacity: 0;
+}
+.overlay4:hover {
+
+  opacity: 1;
+  
+}
+.overlay5{
+  position: relative;
+  left: 15rem;
+  opacity: 0;
+  width: 600px;
+}
+.overlay5:hover {
+
+  opacity: 1;
+  
+}
+.moons{
+  height: 25rem;
+   position: relative;
+   bottom: 100px;
+}
+.iss{
+  position:relative;
+  bottom: 80px;
+}
+
+@media (max-width: 375px){
+  .moons{
+    height: 105rem;
+     position: relative;
+     bottom: 100px;
+  }
 }
