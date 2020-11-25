@@ -14,6 +14,11 @@ code {
 .navbar{
   background-color: rgb(55, 55, 55) !important;
 }
+
+.nav-item {
+  color: white;
+}
+
 .all{
   background-color: black;
   color: white;
@@ -268,4 +273,14 @@ div.allback{
      position: relative;
      bottom: 100px;
   }
+}
+
+.pt-4 {
+  display: flex;
+  justify-content: center;
+  background-color: black;
+}
+
+.footer {
+  background-color: black;
 }

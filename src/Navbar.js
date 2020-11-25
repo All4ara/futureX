@@ -24,13 +24,13 @@ const Navbar = () => {
                     <div className="collapse navbar-collapse" id="navbarResponsive">
                         <ul className="navbar-nav ml-auto text-right">
                             <li className="nav-item ">
-                            <Link to="/data"><a className="nav-link mx-1" href="#1">Discover Space</a></Link>
+                            <Link to="/data"><a className="nav-link mx-1 text-white" href="#1">Discover Space</a></Link>
                             </li>
                             <li className="nav-item">
-                                <Link to="/planets"><a className="nav-link mx-1" href="google.com">About FutureX</a></Link>
+                                <Link to="/planets"><a className="nav-link mx-1 text-white" href="google.com">About FutureX</a></Link>
                             </li>
                             <li className="nav-item">
-                                <Link to="/moons"><a className="nav-link mx-1" href="google.com">LogIn</a></Link>
+                                <Link to="/moons"><a className="nav-link mx-1 text-white" href="google.com">LogIn</a></Link>
                             </li>
                         </ul>
                     </div>
