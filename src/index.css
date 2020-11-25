@@ -14,6 +14,11 @@ code {
 .navbar{
   background-color: rgb(55, 55, 55) !important;
 }
+
+.nav-item {
+  color: white;
+}
+
 .all{
   background-color: black;
   color: white;
@@ -345,3 +350,74 @@ div.allback{
     
   }
 }
+
+.pt-4 {
+  display: flex;
+  justify-content: center;
+  background-color: black;
+}
+
+.footer {
+  background-color: black;
+}
+.mission1{
+  background-image: url('https://s3-alpha-sig.figma.com/img/090e/6a66/d39524a66d47892a10255d0b2f8f2848?Expires=1607299200&Signature=bnprwq-b3nfLWlVHCS9cMxsydImgjOhDUJAfmAEBk0NKp5nNDOxpv3mNr1udkrQ2zCTsH0CIyGrR~gayl9dDdDbOfU1vQzzLq8TPqNW-15kZkxCacs8w5Yqu4iGioI494lsaApQN8iRk4LUEJUwqQe0SxnHZdEQZQHWU170YwmmbXXD62CwMkEhdopzCSycTancL6uTfEnkH8oDgfVgG1aIcAxblvLkSywq6ZgMBuTBRNc4M3dOYKxeFO7oJ752yRmkxCUP5nkuWAXIoMW~0W1Mc4Ga9K5TtuGFPmcNsuUX0cgmn6KNV6x8BiNw3Ql1o50UOdy~1xiMmzIWqwuraOg__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 100% 100%;
+}
+
+.mission2{
+  background-image: url('https://s3-alpha-sig.figma.com/img/c402/3e28/07d7dc3198524330ef6cefb36d306247?Expires=1607299200&Signature=KtuVCjim60XluKDHg2BMJtAwbCh38DxhxHtsoTwUEREnksjUWH33TMro4OrE4wOaBVZrev4SKYiDi17KLGKQ2b8VLPOHEY5nFdPXMODtqQsFhwXuHzYb2VEfpQ2GSgG-eKX4CLXiF96A3o-1wa99Q4e4ftzNCUMbwOHj1EWhHJPxIDy2ad47VnVggU8pbcx23Y0z9a-L5sN1ifokOPecyW1DT-pvpwsW2t8pJ4g3~-YsEVOOoKooIt9olqN1elq~qxCHS9aZtPPqBtL8HlR99fdfLa45Xtsz-CLIXAgxtVb4qncge08rm1oefbjY39iW-r2ZjsYqTw5wd8OfvG-yQA__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 100% 50%;
+}
+
+.mission3{
+  background-image: url('https://s3-alpha-sig.figma.com/img/114b/a346/0e610b620a5ed32a5c3b84a24415c1d0?Expires=1607299200&Signature=TxJH1a2KmS3sTTDqDW01qY8GlSc84C--kNF1e0skDjFa9WtvrrhXaA1sV3zV~~632VdlBiFCMnTfyDljTExsQ1Rf0tA3~ZRabFcikahWHWSGGcteLRHXDDllRHIJ78Ozcmx1dStlIiJeGX8cCCLXa~p3folRYXmyP70MWFpb4JtIPaP2fH6C85NjuvjKqSV~6oW1AGsggNvwHOQrCrzdM3Wvwt3Anv~-ikDIsjsddxk91KnRHx1Py~gJtBJNV6PjzuhWTyR9wUV6Bfr81HX1~6PrjLudTUVnOsi-fHwcUiX8Vx0KYOf0t2o6g2EIu65weyJpqi8ilEudhf2mnkx66g__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 100% 50%;
+}
+
+div#root{
+background-color: black;
+}
+
+.missionBttn{
+  position: absolute;
+  right: 9rem;
+  top: 9rem;
+
+
+}
+
+.missionBttnR{
+  position: absolute;
+  left: 9rem;
+  top: 9em
+
+}
+
+.missionTxt{
+  position: absolute;
+  top: 8rem;
+}
+
+.missionB{
+  width: 20rem;
+  height: 4rem;
+  background-color: black;
+  border: 2px solid white;
+  color: white;
+  font-size: 1.8rem;
+}
+
+.missionB:hover{
+  
+  background-color: rgb(255, 255, 255);
+  border: 2px solid rgb(0, 0, 0);
+  color: rgb(0, 0, 0);
+}
+  
