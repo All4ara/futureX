@@ -54,7 +54,7 @@ const MissionTwo = (props) => {
                 </div>
             </div>
         
-            <div className="padding bg-dark text-center" style={{height: '5rem'}}>
+            <div className="padding bg-dark text-center" style={{height: '7rem'}}>
                 <div className="pt-4">
                     <small className="text-white">Ana Parra | Ariel Elazarov | Darys Bada | Dayan Evora | Gabrielle Farag | Patrick Reilly</small>
                 </div>

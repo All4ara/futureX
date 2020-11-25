@@ -8,7 +8,7 @@ const MissionOne = () => {
         <>
             <div className="all">
                 <div className="allMission">
-                    <div className="container-fluid  text-left text-white" style={{height: '28rem',padding:'5rem 3rem'}}>
+                    <div className="m1 container-fluid  text-left text-white">
                         <h3>MISSION</h3>
                         <h1>Internationl Space Station</h1>
                         <p>NASA is working to build up the business case for future commercial space stations that will eventually serve as successors for the ISS. Part of that is demonstrating the kinds of activities that could be done on those future space stations.</p>
@@ -50,7 +50,7 @@ const MissionOne = () => {
                     </div>
                 </div>
             </div>
-            <div className="padding bg-dark text-center" style={{height: '5rem'}}>
+            <div className="padding bg-dark text-center" style={{height: '7rem'}}>
                 <div className="pt-4">
                     <small className="text-white">Ana Parra | Ariel Elazarov | Darys Bada | Dayan Evora | Gabrielle Farag | Patrick Reilly</small>
                 </div>

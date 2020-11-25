@@ -16,7 +16,7 @@ const Home = () => {
             
 
             <div className="container-fluid padding" style={{height:"40rem"}}>
-                <div className="row text-left padding col-12" style={{padding:"10rem 6rem"}}>
+                <div className="home row text-left padding col-12">
                     <div className="col-xs-12 col-sm-6 col-md-6 col-lg-6 col-xl-6">
                         <img className="img-thumbnail" src="https://media.beam.usnews.com/d1/d8/8501ba714a21aed9a7327e02ade1/180515-10thingselonmusk-editorial.jpg" alt="the-Goat" style={{width:'100%'}}/>
                     </div>
@@ -28,7 +28,7 @@ const Home = () => {
                 </div>
             </div>
             
-            <div className="container-fluid">
+            <div className="container">
                 <div className="allback row text-center col-12"><hr></hr>
                     <div className="back1 text-left col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
                         <h3>MISSION</h3>
@@ -72,7 +72,7 @@ const Home = () => {
                                     </div>
                                 </div>
                                 <div className="col-xs-12 col-sm-6 col-md-6 col-lg-6 col-xl-6">
-                                    <h1>Gifts From an Investmant</h1>
+                                    <h1>Gifts From an Investment</h1>
                                     <div class="list-group">
                                     
                                             <div class="d-flex w-100 justify-content-between">
@@ -121,7 +121,7 @@ const Home = () => {
             </div>
 
             
-            <div className="container-fluid padding bg-dark" style={{height: '5rem'}}>
+            <div className="container-fluid padding bg-dark" style={{height: '7rem'}}>
                 <div className="text-center padding col-12"><hr></hr>
                    
                     <div className="pt-4">
