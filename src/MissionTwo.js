@@ -15,7 +15,7 @@ const MissionTwo = (props) => {
 
                 <Moons {...props}/>
 
-                <div className="containter-fluid padding text-white space">
+                <div className="fund containter-fluid padding text-white space">
                     <div class="row" style={{height: '8rem'}}>
                         <div class="lvl col padding">
                             <h2>Level 1 Funding</h2>
@@ -53,10 +53,11 @@ const MissionTwo = (props) => {
                     </div>
                 </div>
             </div>
-        
-            <div className="padding bg-dark text-center" style={{height: '5rem'}}>
-                <div className="pt-4">
-                    <small className="text-white">Ana Parra | Ariel Elazarov | Darys Bada | Dayan Evora | Gabrielle Farag | Patrick Reilly</small>
+            <div className="footer container-fluid padding" style={{height: '7rem'}}>
+                <div className="text-center padding col-12"><hr></hr>
+                    <div className="pt-4 text-white">
+                        <small className="text-white"><a className="text-white" href="https://www.linkedin.com/in/anacparrac/">Ana Parra </a>| <a className="text-white" href="https://www.linkedin.com/in/arielelazarov/">Ariel Elazarov</a> | <a className="text-white" href="https://www.linkedin.com/in/darysbada/">Darys Bada</a> | <a className="text-white" href="https://www.linkedin.com/in/dayanevora/">Dayan Evora</a> | <a className="text-white" href="https://www.linkedin.com/in/gabriellefarag">Gabrielle Farag</a> | <a className="text-white" href="https://www.linkedin.com/in/psreilly/">Patrick Reilly</a></small>
+                    </div>
                 </div>
             </div>
         </>
